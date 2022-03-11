@@ -1,17 +1,13 @@
 #include <stdio.h>
 /**
- * function_name - main
- * prints the alphabet in lowercase
-(* a blank line
- * Description: Longer description of the function)?
-(* section header: Section description)*
- * Return: 0
+ * main - funtion to generate alphabets
+ * section header: Section description)*
+ * Return:0 Description of the returned value
  */
-int main() {
-    char c;
-
-        for (c = 'a'; c <= 'z'; ++c)
-            putchar(c);
-    return 0;
+int main(void) {
+char c;
+for (c = 'a'; c <= 'z'; ++c)
+         putchar(c);
+return (0);
 }
 
