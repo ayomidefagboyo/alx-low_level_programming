@@ -6,10 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - funtion to generate random number
- * @parameterx:n
-(* a blank line
- * Description: Longer description of the function)?
-(* section header: Section description)*
+ * section header: Section description)*
  * Return:0 Description of the returned value
  */
 int main(void)
