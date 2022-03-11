@@ -3,17 +3,17 @@
 int main(void)
 
 {
-        int ch;     
+        char c;     
     
              /* print lowercase letters */
 
-             for (ch= ‘a’; ch<= ‘z’; ch++)
-{
-                  putchar(ch);
+             for (c = ‘a’; c<= ‘z’; c++)
+
+                  putchar(c);
 
                   putchar (‘\n’) ;
 
-                  getch();
-}
+                  getc();
+
 return (0);
 }
