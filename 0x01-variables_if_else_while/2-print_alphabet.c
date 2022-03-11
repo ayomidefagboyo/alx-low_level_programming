@@ -1,19 +1,9 @@
 #include <stdio.h>
+int main() {
+    char c;
 
-int main(void)
-
-{
-        char c;     
-    
-             /* print lowercase letters */
-
-             for (c = ‘a’; c<= ‘z’; c++)
-
-                  putchar(c);
-
-                  putchar (‘\n’) ;
-
-                  getc();
-
-return (0);
+        for (c = 'a'; c <= 'z'; ++c)
+            putchar(c);
+    return 0;
 }
+
