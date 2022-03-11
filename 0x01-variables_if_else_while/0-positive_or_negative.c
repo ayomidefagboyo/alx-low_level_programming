@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Short description, single line
- * @parameterx: Description of parameter x
+ * @parameterx: a random number to the variable n
 (* a blank line
  * Description: Longer description of the function)?
 (* section header: Section description)*
