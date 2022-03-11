@@ -5,11 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * int main -will assign a random number to the variable n
- * @arg1: First operand
- * @arg2: Second operand
- *
- * Return: 0
+ * main - funtion to generate random number
+ * section header: Section description)*
+ * Return:0 Description of the returned value
  */
 int main(void)
 {
