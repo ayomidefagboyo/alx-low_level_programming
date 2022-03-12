@@ -11,8 +11,9 @@ for (c = 'a'; c <= 'z'; ++c)
 putchar(c);
 
 char C;
-for (C = 'A'; C <= 'Z'; ++C)
+for (C = 'A'; c <= 'Z'; ++C)
 putchar(C);
+
 return (0);
 }
 
