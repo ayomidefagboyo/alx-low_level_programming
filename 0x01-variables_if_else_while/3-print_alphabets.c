@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - funtion to generate alphabets
  * section header: Section description)*
@@ -9,7 +10,7 @@ int main(void)
 char c;
 for (c = 'a'; c <= 'z'; ++c)
 putchar(c);
-putchar (‘\n’ );
+putchar (‘\n’);
 for (c = 'A'; c <= 'Z'; ++c)
 putchar(c);
 
