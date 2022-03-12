@@ -1,15 +1,17 @@
+#include <stdio.h>
+
 /**
- * main - prints alphabets in lowercase
- * section header: Section description)*
- * Return:0
+ * main - prints all aphabets except for q and e
+ * Return: 0
  */
+
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-if (ch != 'e' && ch != 'q' )
-putchar(ch);
+char chr;
+
+for (chr = 'a'; chr <= 'z'; chr++)
+if (chr != 'e' && chr != 'q')
+putchar(chr);
 putchar('\n');
 return (0);
 }
-
