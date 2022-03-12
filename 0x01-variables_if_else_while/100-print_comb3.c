@@ -7,16 +7,20 @@
 
 int main(void)
 {
-int x = 0;
-for (x = 48; x < 58; x++)
+int x;
+for (x = 0; x < 10; x++)
+{
+for (y =1; y < 10; y++)
+{
+if (x != y)
 {
 putchar(x);
-if (x != 57)
-{
-putchar(',');
-putchar(' ');
+putchar(y);
+putchar(,)
 }
 }
+}
+
 putchar('\n');
 return (0);
 }
