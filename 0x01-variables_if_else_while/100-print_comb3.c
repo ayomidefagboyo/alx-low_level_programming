@@ -1,17 +1,23 @@
 #include <stdio.h>
 /**
- * main - funtion to all possible different combinations of two digits
- * section header: Section description)*
- * Return:0 Description of the returned value
+ * main - this prints all possible combinations of single digit numbers
+ *
+ * Return: 0
  */
+
 int main(void)
 {
 int x = 0;
-int y =1;
 for (x = 48; x < 58; x++)
 {
 putchar(x);
+if (x != 57)
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
 return (0);
 }
-
 
