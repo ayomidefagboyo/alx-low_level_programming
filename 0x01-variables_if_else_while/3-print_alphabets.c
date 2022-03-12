@@ -10,9 +10,9 @@ char c;
 for (c = 'a'; c <= 'z'; ++c)
 putchar(c);
 
-char C;
-for (C = 'A'; c <= 'Z'; ++C)
-putchar(C);
+char c;
+for (c = 'A'; c <= 'Z'; ++c)
+putchar(c);
 
 return (0);
 }
