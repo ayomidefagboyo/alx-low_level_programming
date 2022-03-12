@@ -8,7 +8,7 @@ int main(void)
 {
 char lower_case;
 int i;
-for (i = 0; i <= 10; i++)
+for (i = 0; i < 10; i++)
 putchar(i + '0');
 for (lower_case = 'a'; lower_case < 'g'; lower_case++)
 putchar(lower_case);
