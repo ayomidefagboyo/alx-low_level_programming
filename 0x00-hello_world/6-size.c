@@ -13,11 +13,11 @@ long long lType;
 char charType;
 	
     /* sizeof evaluates the size of a variable*/
-    printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-    printf("Size of an int: %zu bytes(s)\n", sizeof(intType));
-    printf("Size of a long int: %zu bytes(s)\n", sizeof(longType));
-    printf("Size of a long long int: %zu bytes(s)\n", sizeof(lType));
-    printf("Size of a float: %zu bytes(s)\n", sizeof(floatType));
+printf("Size of a char: %zu byte(s)\n", sizeof(charType));
+printf("Size of an int: %zu bytes(s)\n", sizeof(intType));
+printf("Size of a long int: %zu bytes(s)\n", sizeof(longType));
+printf("Size of a long long int: %zu bytes(s)\n", sizeof(lType));
+printf("Size of a float: %zu bytes(s)\n", sizeof(floatType));
 return (0);
 }
 
