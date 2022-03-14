@@ -11,8 +11,7 @@ float floatType;
 long  longType;
 long long lType;
 char charType;
-	
-    /* sizeof evaluates the size of a variable*/
+/* sizeof evaluates the size of a variable*/
 printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 printf("Size of an int: %zu bytes(s)\n", sizeof(intType));
 printf("Size of a long int: %zu bytes(s)\n", sizeof(longType));
