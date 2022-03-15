@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * main - funtion that prints putchar
-(* a blank line
- * Description: Longer description of the function)
-(* section header: Section description)*
- * Return: 0
+ * print_alphabet - Entry point
+ * Description: A function that prints the alphabet, in lowercase
+ * Return: void
  */
-
-
 void print_alphabet(void)
 {
-int ch ;
-for (ch = 'a';ch <= 'z';ch++)
-putchar(ch);
-putchar('\n');
+char alphabet = 'a';
+
+while (alphabet <= 'z')
+{
+_putchar(alphabet);
+alphabet++;
 }
+_putchar('\n');
+}
+
