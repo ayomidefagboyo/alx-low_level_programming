@@ -4,10 +4,9 @@
 *
 *return - 0
 */
-int pri(const char *format, ...);
 int main(void)
 {
-pri("_putchar\n");
+write("_putchar\n");
 
 return (0);
 }
