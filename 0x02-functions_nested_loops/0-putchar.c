@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * function_name - funtion that prints putchar
- * @parameterx: Description of
+ * parameterx: 
 (* a blank line
- * Description: Longer description of the function)?
+ * Description: Longer description of the function)
 (* section header: Section description)*
  * Return: 0
  */
