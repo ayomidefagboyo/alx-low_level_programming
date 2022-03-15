@@ -4,10 +4,10 @@
 *
 *return - 0
 */
+int pri(const char *format, ...);
 int main(void)
 {
-int show(const char *format, ...);
-show("_putchar\n");
+pri("_putchar\n");
 
 return (0);
 }
