@@ -6,8 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-int times = 
-0;
+int times = 0;
 char alphabet = 'a';
 while (times <= 10)
 {
