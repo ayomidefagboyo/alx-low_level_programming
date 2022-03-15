@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - funtion that prints putchar
 (* a blank line
@@ -6,6 +6,13 @@
 (* section header: Section description)*
  * Return: 0
  */
+
+int main(void)
+{
+print_alphabet();
+return (0);
+}
+
 void print_alphabet(void)
 {
 char ch ;
