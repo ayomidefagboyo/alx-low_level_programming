@@ -6,8 +6,6 @@
 */
 int main(void)
 {
-char ch = 'putchar';
-putchar(ch);
-
+write(1,"_putchar\n",);
 return (0);
 }
