@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * function_name - funtion that prints putchar
- * parameterx
 (* a blank line
  * Description: Longer description of the function)
 (* section header: Section description)*
