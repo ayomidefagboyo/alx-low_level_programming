@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*
-*main- code that writes a program to print _putchar
-*
-*return - 0
-*/
+/**
+ * function_name - funtion that prints putchar
+ * @parameterx: Description of
+(* a blank line
+ * Description: Longer description of the function)?
+(* section header: Section description)*
+ * Return: 0
+ */
 int main(void)
 {
 putchar('_');
