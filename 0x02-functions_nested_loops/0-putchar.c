@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-
+int show(const char *format, ...);
+show("_putchar\n");
 
 return (0);
 }
