@@ -15,7 +15,7 @@ while (t <= 10)
 _putchar(alphabet);
 alphabet++;
 _putchar('\n');
-}
 t++;
+}
 }
 }
