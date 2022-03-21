@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-
+/**
+ * reset_to_98 - Set pointer param to 98.
+ * @n: int type pointer
+ */
 
 void reset_to_98(int *n)
 {
-int i = 98;
-n = &i;
-
+*n = 98;
 return (*n);
 }
 
