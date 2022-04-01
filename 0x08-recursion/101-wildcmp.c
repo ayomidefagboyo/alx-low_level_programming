@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * wildcmp - compare 2 strings allowing for * special.
  * @s1: string to compare
