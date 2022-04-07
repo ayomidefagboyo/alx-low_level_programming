@@ -1,23 +1,22 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- *main - multiplies 2 numbers
- *@argc: argument
- *@argv: array
- *Return: 0 and 1 for error
+ * main - multiplies two numbers.
+ * @argc: is number of args.
+ * @argv: array of args.
+ * Return: 1 if wrong number of args is passed in otherwise 0.
  */
 int main(int argc, char *argv[])
 {
-	if (argc < 3)
+	int num;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-	}
+	num = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n", num);
 	return (0);
 }
