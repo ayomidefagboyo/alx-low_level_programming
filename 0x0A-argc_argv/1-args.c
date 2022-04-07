@@ -1,18 +1,15 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
-
 /**
- * main - prints the number of arguments
- * @argc: variable
- * @argv: array
- * Return: 0
+ * main - prints the number of arguments passed into it.
+ * @argc: is number of args.
+ * @argv: unused.
+ * Return: Always 0.
  */
-
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	if (argc > 0)
-	{
-		printf("%d\n", argc - 1);
-	}
+	printf("%d\n", argc - 1);
+
 	return (0);
 }
