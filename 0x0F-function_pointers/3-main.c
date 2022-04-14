@@ -1,34 +1,41 @@
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
- * main - performs simple operations by passing functions as pointers.
- * @argc: number of arguments.
- * @argv: array of arguments.
- * Return: 0 or 98 if too few arguments, 99 if wrong operator, 100 if div by 0
+ * main - main function
+ * @argc: argument count
+ * @argv: string of arguments in array
+ * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
-	int num1, num2;
-	char *operator;
+	int a, b;
+	int (*o)(int, int);
 
-	if (argc < 4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[3]);
-	operator = argv[2];
-	if (get_op_func(operator) == NULL)
+	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	if (num2 == 0 && (strcmp(operator, "/") == 0 || strcmp(operator, "%") == 0))
+
+	o = get_op_func(argv[2]);
+	if (o == NULL)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
-	printf("%d\n", (get_op_func(operator)(num1, num2)));
+
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	printf("%d\n", o(a, b));
 
 	return (0);
 }
