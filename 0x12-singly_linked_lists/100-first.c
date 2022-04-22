@@ -1,9 +1,11 @@
-#include <stdio.h>
+k#include "lists.h"
 
 /**
- * before_main - Print statement within this fxn before running main fxn.
+ * quick_p - print before main function.
+ * we use __attribute__((constructor)) in the header to do this.
+ * Return: nothing.
  */
-void __attribute__((constructor)) before_main(void)
+void quick_p(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
